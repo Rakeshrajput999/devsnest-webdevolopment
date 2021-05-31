@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+            box-sizing: border-box;
+
+        }
+        .parant_div{
+            width:  100vw;
+            height: 100vh;
+           background-image: linear-gradient(rgba(14, 10, 10, 0.767),rgba(14, 1, 1, 0.253));
+           position: relative;
+           display: flex;
+           align-items: center;
+           justify-content: center
+        }
+        .child_div{
+            width: 60vw;
+            height: 50vh;
+            background-image: linear-gradient(330deg,rgb(25, 25, 31),rgba(10, 10, 41, 0.5)), url('./img/Batman Logo - 1280x732.png' );
+            background-size: 110%;
+            background-position: -2.2vw .5vw;
+            border-style: solid;
+            border-color: rgb(2, 13, 22);
+            border-width: 3px;
+            border-radius: 30px;
+            box-shadow: 0 34px 34px  rgba(0,0,4,0.5);
+            position: absolute;
+            transition: all 0.3s;
+        }
+        h1{
+            
+            color: aliceblue;
+            font-family: 'Rye', cursive;
+            font-size: 1vh;
+            position: absolute;
+            text-shadow: 0 3px 34px rgb(233, 88, 88);
+            left: 30vw;
+            top: 1.5vh;
+            opacity: 0;
+        }
+        .batman{
+            position: absolute;
+            width:52.0vw;
+             height:70.0vh;
+            left: 5vw;
+            top: -19vh;
+        }
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            width: 400px;
+            text-align: justify;
+            position: absolute;
+            top: 15vh;
+            left: 2vh;
+            color: rgb(0, 217, 255);
+            opacity: 0;
+        }
+        button{
+            position: absolute;
+            
+            background-color: rgba(184, 80, 11, 0.452);
+            top: 34.5wh;
+            left: 30.0vw;
+            width: .2vw;
+            padding: 3px;
+            font-size: 2px;
+            box-shadow: 3px 3px 30px rgb(63, 11, 11);
+            border-radius: 40px;
+            opacity: 0;
+        }
+        .child_div:hover .batman{
+            position: absolute;
+            width: 50vw;
+            height: 80vh; 
+            left: 30vw;
+            top: -20vh;
+            transition:  2.3s;
+           
+        }
+        .child_div:hover h1{
+
+            color: rgb(255, 240, 240);
+            font-size: 7vh;
+            position: absolute;
+            text-shadow: 0 3px 34px rgb(233, 88, 88);
+            left: 7vw;
+            top: 1.5vh;
+            transition: 1s;
+            opacity: 1;
+
+        }
+        .child_div:hover p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 3vw ;
+            width: 40vw;
+            text-align: justify;
+            position: absolute;
+            top: 15vh;
+            left: 2vh;
+            color: rgb(0, 217, 255);
+            transition: 1s;
+            opacity: 1;
+
+        }
+        .child_div:hover button{
+            top: 50.5vh;
+            left: 20vw;
+            width: 20vw ;
+            padding: 3px;
+            font-size: 2vh;
+            transition: 1s;
+            opacity: 1;
+        }
+        .child_div:hover{
+            width: 70vw;
+            height: 60vh;
+            background-image: linear-gradient(330deg,rgb(71, 3, 3),rgba(10, 10, 41, 0.5)), url('./img/Batman Logo - 1280x732.png' );
+            background-size: 110%;
+            background-position: -22px 5px;
+            box-shadow: inset 0px 5px 20px 18px rgb(0 0 4 / 50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="parant_div">
+        <div class="child_div">
+            <h1>BATMAN</h1>
+            <button>
+                <a style="color: aliceblue;" href="">READ MORE</a>
+            </button>
+            <img class="batman" src="img/Batman - 800x1042.png" alt="" >
+            <p>“A hero can be anyone, even a man doing something as simple as reassuring putting a coat on a young boy’s shoulders.” </p>
+            <button>
+                <a style="color: aliceblue;" href="">READ MORE</a>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
