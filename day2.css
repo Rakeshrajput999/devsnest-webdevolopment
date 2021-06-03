@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    
+    
+  
+    padding: 3vh;
+    
+    
+}
+header{
+    height: 90vh;
+    background-image:linear-gradient( to right bottom,#7ed56f77, #28b4859a), 
+      url(../project/img/interior-wall-with-green-plant-shelf-3d-rendering.jpg ) ;
+    background-size:cover;
+    background-position: top;
+    clip-path: polygon(0 0 ,100% 0,100% 89%,0 100%);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(241, 237, 237);
+}
+
+    
