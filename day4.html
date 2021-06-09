@@ -1,0 +1,107 @@
+<!-- clock desigm -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+
+            }
+          .back{
+              position: relative;
+              top: 100px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+        }
+
+        .outer_circle {
+            height: 600px;
+            width: 600px;
+            background-color: red;
+            border-radius: 340px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 300px;
+            border-color: brown;
+            border-width: 19px;
+            box-shadow: inset 1px 1px 60px rgb(31, 8, 8);
+
+        }
+
+        .inner_circle {
+            background-color: rgb(196, 207, 218);
+            height: 500px;
+            width: 500px;
+            border-radius: 300px;
+            border-color: brown;
+            border-width: 19px;
+            box-shadow:  1px 1px 60px rgb(31, 8, 8);
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            position: relative;
+
+        }
+        .hour ,.sec, .min{
+            position: absolute;
+            transform: rotateZ(0deg);
+            transform-origin: bottom center;
+            animation-name: anima;
+            top: 50px;
+            animation-iteration-count: infinite;
+            
+        
+             }
+        .min{
+            background-color: rgba(9, 221, 55,.7);
+            width: 8px;
+            height: 230px;
+            top: 20px; 
+            animation-duration: 60s; 
+              
+        }
+        .sec{
+            background-color: rgba(134, 136, 12 ,0.8);
+            width: 10px;
+            height: 230px;
+            top: 18px;
+            animation-duration: 30s;
+        }
+        .hour{
+            height:200px;
+            width: 8px;
+            background-color: black;
+            animation-duration: 120s
+        }
+        @keyframes anima{
+            from{transform: rotateZ(0deg);}
+            to{transform: rotateZ(360deg);}
+        }
+    
+      
+    </style>
+</head>
+
+<body>
+    <div class="back">
+        <div class="outer_circle">
+            <div class="inner_circle">
+               <div class="min"></div>
+               <div class="sec"></div>
+               <div class="hour"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
