@@ -1,0 +1,27 @@
+
+.box{
+    height: 10vh;
+    width: 10vw;
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+    margin: 1vh;
+    background-color: brown;
+}
+.box:hover{
+    opacity: 0.9;
+}
+.con{
+    position: relative;
+    right: -15vw;
+    display: flex;
+
+}
+.counter{
+    display: flex;
+    
+}
+
+.boxclicked{
+    background-color: burlywood;
+}
