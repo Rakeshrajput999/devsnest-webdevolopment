@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Abel", sans-serif;
+  }
+  ::selection {
+    color: hsl(133, 100%, 50%);
+    background-color: black;
+  }
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+  }
+  button {
+    margin-top: 2rem;
+    font-size: 2em;
+    border-radius: 0.6em;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.4em 1em;
+    background: transparent;
+    color: rgb(245, 240, 255);
+    font-weight: 707;
+    letter-spacing: 2px;
+  }
+  .quotes {
+    display: flex;
+    height: auto;
+    padding: 2rem;
+    width: 60%;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
