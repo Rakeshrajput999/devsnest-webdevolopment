@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid black;
+  width: 400px;
+  height: 400px;
+}
+.chessbox{
+ 
+align-items: stretch;
+display: grid;
+grid-template-columns: max-content
+
+}
+.odd .even {
+  
+  padding: 0%;
+  margin: 0%;
+}
+span{
+ display: inline-block;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+}
+ .odd span:nth-child(even){
+  
+  background: rgb(70, 70, 122);
+ 
+
+}
+.even span:nth-child(odd){
+  
+  background: rgb(70, 70, 122);
+ 
+
+}
+
