@@ -1,0 +1,36 @@
+body{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 0%;
+  margin: 0%;
+
+
+
+}
+.scrollbar{
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 200px;
+  padding: 1em;
+  gap: 1em;
+  overflow-y: scroll;
+  text-align: center;
+}
+.Card{
+  background-color: antiquewhite;
+  border: 2px solid black;
+  width: 400px;
+  height: 200px;
+}
