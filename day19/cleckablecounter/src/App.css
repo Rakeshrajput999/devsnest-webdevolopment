@@ -1,0 +1,40 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+ position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  height: 60vh;
+  width: 60vw;
+  background-color:bisque ;
+  box-shadow: 8px 10px 198px 0px rgba(233, 55, 10, 0.75);
+-webkit-box-shadow: 8px 10px 198px 0px rgba(240, 51, 38, 0.75);
+-moz-box-shadow: 8px 10px 198px 0px rgba(240, 102, 38, 0.75);
+}
+.counterbtn{
+  position: relative;
+  left: 55px;
+  top: 40px;
+  margin: 32px;
+  box-shadow:2px 2px 1 #adcf12;
+  border: 2px solid blue;
+  background-image: linear-gradient(#adcf12,#acbdef);
+  width: 10vw;
+  height: 10vh;
+  box-shadow: 10px 10px 100px 0px rgb(145, 106, 106) inset;
+-webkit-box-shadow: 10px 10px 100px 0px rgb(185, 105, 105) inset;
+-moz-box-shadow: 10px 10px 100px 0px rgb(247, 243, 243) inset;
+font-size: larger;
+
+
+ 
+  
+}
