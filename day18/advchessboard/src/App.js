@@ -1,5 +1,6 @@
 import './App.css';
-import Block from "./components/card"
+// import Block from "./components/Block"
+import ChessRow from './components/ChessRow';
 
 
 
@@ -9,14 +10,8 @@ function App() {
   return (
     <div className="App">
         
-      <Block probs="white"/>
-      <Block probs="black"/>
-      <Block probs="white"/>
-      <Block probs="black"/>
-      <Block probs="white"/>
-      <Block probs="black"/>
-      <Block probs="white"/>
-      <Block probs="black"/>
+      <ChessRow/>
+     
       
     </div>
   );

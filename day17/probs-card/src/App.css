@@ -25,7 +25,7 @@ body{
   height: 200px;
   padding: 1em;
   gap: 1em;
-  overflow-y: scroll;
+  overflow-y:scroll;
   text-align: center;
 }
 .Card{

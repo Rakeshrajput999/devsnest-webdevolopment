@@ -1,5 +1,7 @@
  const Card=(probs)=>{
      let {food ,calory}=probs
+
+    console.log(probs)
     return(
         <div className="Card">
             <section className="card_sec">
