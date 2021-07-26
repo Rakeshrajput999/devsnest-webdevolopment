@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    background-color: rgb(240, 211, 175);
+}
+ /* day22 */
+
+ .day22-template{
+  width: 30%;
+  display: inline-block;
+  border: 10px solid transparent;
+  
+
+ }
+ .day22-img{
+
+   width:100% ;
+   height: 500px;
+   border: 1px solid black;
+   background-size: cover;
+   background-position: center;
+
+ }
+ .day22-meme{
+text-align: center;
+
+
+
+ }
+ .day22-meme img{
+ width: auto;
+ height: 500px;
+ border: 1px solid black;
+
+ }
+ .day22-meme input{
+   margin: 10px;
+   padding: 5px;
+ }
+ .day22-meme button{
+   padding: 5px;
+   margin: 5px;
+ }
+
+
+
+
+/* navigation bar styling */
+.nav-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    width: 90vw ;
+    height: 3vh;
+    border: 2px solid black;
+    background-color: beige;
+    padding: 2px;
+    
+}
+.child-div{
+    display: flex;
+    flex-direction: row;
+}
+ .nav-link{
+
+    padding: 7px;
+    margin: 3px;
+}
+
+
+
+/* day16 */
+.chessboard-main-div{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chessboard-div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    width: 400px;
+    height: 400px;
+}
+  .chessbox{
+   
+  align-items: stretch;
+  display: grid;
+  grid-template-columns: max-content
+  
+  }
+  .odd .even {
+    
+    padding: 0%;
+    margin: 0%;
+  }
+  span{
+    padding: 0;
+    margin: 0;
+   display: inline-block;
+    border: 1px solid black;
+    width: 55px;
+    height: 50px;
+  }
+   .odd span:nth-child(even){
+    
+    background: rgb(0, 0, 8);
+   
+  
+  }
+  .even span:nth-child(odd){
+    
+    background: rgb(0, 0, 17);
+   
+  
+  }
+  
+  
+ 
