@@ -17,7 +17,8 @@ const MemeCard = ({Meme ,setMeme}) => {
          })
          fetch(url).then(res=>res.json())
          .then(data =>{
-             setMeme({...Meme,url:data.data.url})
+            setMeme({...Meme,url:data.data.url})
+             
          })
          .catch((e)=>{
              alert(e.message)

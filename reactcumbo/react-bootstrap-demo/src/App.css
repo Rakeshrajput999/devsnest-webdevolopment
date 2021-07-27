@@ -4,45 +4,7 @@ body{
 }
  /* day22 */
 
- .day22-template{
-  width: 30%;
-  display: inline-block;
-  border: 10px solid transparent;
-  
-
- }
- .day22-img{
-
-   width:100% ;
-   height: 500px;
-   border: 1px solid black;
-   background-size: cover;
-   background-position: center;
-
- }
- .day22-meme{
-text-align: center;
-
-
-
- }
- .day22-meme img{
- width: auto;
- height: 500px;
- border: 1px solid black;
-
- }
- .day22-meme input{
-   margin: 10px;
-   padding: 5px;
- }
- .day22-meme button{
-   padding: 5px;
-   margin: 5px;
- }
-
-
-
+ 
 
 /* navigation bar styling */
 .nav-main-div{

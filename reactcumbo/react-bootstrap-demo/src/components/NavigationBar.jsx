@@ -6,6 +6,7 @@ Switch} from "react-router-dom"
 import About from './body/About'
 import Day16 from './body/day16/Day16'
 import Day22 from './body/day22/Day22'
+import Day24 from './body/day24/Day24'
 
 
 const NavigationBar = () => {
@@ -26,6 +27,9 @@ const NavigationBar = () => {
                     <h6 className="nav-link">
                         <Link to ="/day22">Day22</Link>
                     </h6>
+                    <h6 className="nav-link">
+                        <Link to ="/day24">Day24</Link>
+                    </h6>
                 </div>
                 </nav>
             </div>
@@ -41,6 +45,9 @@ const NavigationBar = () => {
                 </Route>
                 <Route path="/day22">
                     <Day22/>
+                </Route>
+                <Route path="/day24">
+                    <Day24/>
                 </Route>
             </Switch>
         </Router>
