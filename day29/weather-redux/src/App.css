@@ -1,0 +1,60 @@
+.App {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 2rem;
+    
+    
+  }
+  .parant-div{
+    border: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .child-div{
+    width: 60vw;
+    height: 90vh;
+    color: whitesmoke;
+    background-image: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 3%;
+    box-shadow: -5px 3px 14px 2px rgba(31,3,3,0.73);
+  -webkit-box-shadow: -5px 3px 14px 2px rgba(31,3,3,0.73);
+  -moz-box-shadow: -5px 3px 14px 2px rgba(31,3,3,0.73);
+    
+  }
+  /* search bar */
+  .search-bar{
+    color: white;
+    
+  
+  }
+  .input-bar{
+    opacity: .2
+  }
+  .input-button{
+  
+    background-color: bisque;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  
+  }
+  
+  .wind-pressure{
+    position: absolute;
+    bottom: 45px;
+    display: flex;
+    font-size: 0.5em;
+    
+    
+  }
+  
+  

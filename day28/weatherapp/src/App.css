@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 2rem;
+  
+  
+}
+.parant-div{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child-div{
+ 
+  color: whitesmoke;
+  background-image: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid black;
+  border-radius: 3%;
+  box-shadow: -5px 3px 14px 2px rgba(31,3,3,0.73);
+-webkit-box-shadow: -5px 3px 14px 2px rgba(31,3,3,0.73);
+-moz-box-shadow: -5px 3px 14px 2px rgba(31,3,3,0.73);
+  
+}
+/* search bar */
+.search-bar{
+  color: white;
+  margin-top: 6px;
+  
+
+  
+
+}
+.input-bar{
+  margin-right: 5px;
+  padding: 5px 10px ;
+  background-color: transparent;
+  color:aliceblue;
+  font-size: 30px;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.input-button{
+
+  background-color: bisque;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+}
+.weather-con-div{
+position: relative;
+}
+img{
+  width:200px;
+  height: cover;
+  border: solid rgb(151, 66, 66) 2px;
+  background-color: rgba(197, 143, 81, 0.4);
+  border-radius: 40%;
+  box-shadow: 10px -13px 74px 6px rgba(31,31,30,0.53) inset;
+-webkit-box-shadow: 10px -13px 74px 6px rgba(31,31,30,0.53) inset;
+-moz-box-shadow: 10px -13px 74px 6px rgba(31,31,30,0.53) inset;
+ 
+}
+
+.wind-pressure{
+  margin-top: 30px;
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  font-size: 0.6em;
+  
+  
+  
+}
+
+
+
+li{
+
+  background-color: rgba(2, 2, 27,.8);
+  opacity: .8;
+  border-radius: 15%;
+  margin: 10px;
+  padding: 30px  12px;
+  border: white solid 2px;
+  text-align: center;
+}
+li:hover{
+  background-color: rgb(16, 10, 46);
+}
+
+@media only screen and (max-width: 949px) {
+  .wind-pressure{
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  ul{
+    margin: 0%;}
+    li{
+      margin: 12px;
+    
+   padding: 10px  30px;
+    }
+    .child-div{
+      width: 100vw;
+      height: 100vh;
+      font-size: .8em;
+    }
+    
+}
