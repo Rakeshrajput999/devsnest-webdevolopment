@@ -26,14 +26,14 @@ function App() {
       <div className="parant-div">
         <div className="child-div">
           {/* search bar */}
-          <div class="search-bar">
-            <input class="input-bar" type="text" value={Location} onChange={(e) => {
+          <div className="search-bar">
+            <input className="input-bar" type="text" value={Location} onChange={(e) => {
               setLocation(e.target.value)
             }} placeholder="eg.Mungeli..." />
-            <button class="input-button" onClick={() => {
+            <button className="input-button" onClick={() => {
               SetArea(Location)
 
-            }}><i class="fas fa-cloud-sun"></i></button>
+            }}><i className="fas fa-cloud-sun"></i></button>
 
 
 
@@ -52,10 +52,10 @@ function App() {
                 <div>{d.toDateString()}</div>
                 <div>
                   {/* wind data */}
-                  <div class="wind-pressure">
+                  <div className="wind-pressure">
                     <ul style={{listStyleType:'none'}}>
                       <li>wind-speed:{Data.current.wind_kph}{""}kph</li>
-                      <li>wind-degree:{Data.current.wind_degree}°</li>
+                     <li>wind-degree:{Data.current.wind_degree}°</li>
                       <li>wind-diraction:{Data.current.wind_dir}</li>
                     </ul>
                     <ul style={{listStyleType:'none'}} >
