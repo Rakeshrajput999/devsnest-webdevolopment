@@ -1,0 +1,13 @@
+.main_div{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

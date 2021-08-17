@@ -1,6 +1,6 @@
 
 
-const PlaceReducer = (state="" ,action) => {
+const PlaceReducer = (state=" " ,action) => {
   if(action.type==="UPDATE_PLACE"){
       return(action.payload)
   }

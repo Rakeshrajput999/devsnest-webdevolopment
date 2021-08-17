@@ -8,11 +8,11 @@ const Weathercard = () => {
     const d= Date()
     
     return (
-        <div>
-             <div>
+        <div >
+             <div >
             {Data.location?
               // data section
-              <div>
+              <div className="weather-con-div">
                 <div>{Data.location.name},{Data.location.country}</div>
                 <img src={Data.current.condition.icon} />
                 <div>{Data.current.condition.text}</div>

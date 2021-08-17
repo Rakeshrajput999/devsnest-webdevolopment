@@ -46,7 +46,7 @@ const Todo = () => {
                     dispatch(deleteTodo(ele.id));
                   }}
                 >
-                  delete
+                  ❌ 
                 </button>
               </div>
             );

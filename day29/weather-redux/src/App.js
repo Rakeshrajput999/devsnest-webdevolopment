@@ -5,9 +5,11 @@ import Weathercard from './components/Weathercard';
 
 function App() {
   return (
-    <div>
+    <div className="parant-div">
+    <div className="child-div">
       <Farm/>
       <Weathercard/>
+    </div>
     </div>
   )
 }
